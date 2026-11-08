@@ -1,0 +1,2378 @@
+[
+  {
+    "id": "INTRO_P01",
+    "rule_group": "Вводное слово",
+    "sentence": "К сожалению я не успел на поезд.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N01",
+    "rule_group": "Вводное слово",
+    "sentence": "К сожалению, я не успел на поезд.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P02",
+    "rule_group": "Вводное слово",
+    "sentence": "Мы конечно поможем тебе.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N02",
+    "rule_group": "Вводное слово",
+    "sentence": "Мы, конечно, поможем тебе.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P03",
+    "rule_group": "Вводное слово",
+    "sentence": "Он вероятно уже ушёл.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N03",
+    "rule_group": "Вводное слово",
+    "sentence": "Он, вероятно, уже ушёл.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P04",
+    "rule_group": "Вводное слово",
+    "sentence": "Например можно начать с простого.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N04",
+    "rule_group": "Вводное слово",
+    "sentence": "Например, можно начать с простого.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P05",
+    "rule_group": "Вводное слово",
+    "sentence": "Во-первых нужно проверить данные.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N05",
+    "rule_group": "Вводное слово",
+    "sentence": "Во-первых, нужно проверить данные.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P06",
+    "rule_group": "Вводное слово",
+    "sentence": "По-видимому поезд задерживается.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_N06",
+    "rule_group": "Вводное слово",
+    "sentence": "По-видимому, поезд задерживается.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "INTRO_P07",
+    "rule_group": "Вводное слово",
+    "sentence": "К счастью всё закончилось хорошо.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N07",
+    "rule_group": "Вводное слово",
+    "sentence": "К счастью, всё закончилось хорошо.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_P08",
+    "rule_group": "Вводное слово",
+    "sentence": "Она безусловно права.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N08",
+    "rule_group": "Вводное слово",
+    "sentence": "Она, безусловно, права.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_P09",
+    "rule_group": "Вводное слово",
+    "sentence": "Кстати я нашёл решение.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N09",
+    "rule_group": "Вводное слово",
+    "sentence": "Кстати, я нашёл решение.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_P10",
+    "rule_group": "Вводное слово",
+    "sentence": "Следовательно опыт подтверждает гипотезу.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N10",
+    "rule_group": "Вводное слово",
+    "sentence": "Следовательно, опыт подтверждает гипотезу.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_P11",
+    "rule_group": "Вводное слово",
+    "sentence": "Впрочем спорить бесполезно.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N11",
+    "rule_group": "Вводное слово",
+    "sentence": "Впрочем, спорить бесполезно.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_P12",
+    "rule_group": "Вводное слово",
+    "sentence": "К несчастью они опоздали.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ],
+    "pair_id": "INTRO_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "INTRO_N12",
+    "rule_group": "Вводное слово",
+    "sentence": "К несчастью, они опоздали.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "INTRO_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P01",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Закончив работу он отправился домой.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N01",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Закончив работу, он отправился домой.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P02",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Увидев друга девушка улыбнулась.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N02",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Увидев друга, девушка улыбнулась.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P03",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Подойдя к двери он постучал.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N03",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Подойдя к двери, он постучал.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P04",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Прочитав письмо Анна задумалась.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N04",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Прочитав письмо, Анна задумалась.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P05",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Не заметив ошибки редактор отправил текст.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N05",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Не заметив ошибки, редактор отправил текст.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P06",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Собрав вещи туристы вышли из палатки.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_N06",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Собрав вещи, туристы вышли из палатки.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "GERUND_P07",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Вернувшись домой отец приготовил ужин.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N07",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Вернувшись домой, отец приготовил ужин.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P08",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Открыв окно она впустила свежий воздух.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N08",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Открыв окно, она впустила свежий воздух.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P09",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Переходя дорогу пешеход посмотрел по сторонам.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N09",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Переходя дорогу, пешеход посмотрел по сторонам.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P10",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Проверив расчёты инженер подписал отчёт.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N10",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Проверив расчёты, инженер подписал отчёт.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P11",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Она улыбалась вспоминая детство.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N11",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Она улыбалась, вспоминая детство.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_P12",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Студент решал задачу проверяя каждый шаг.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ],
+    "pair_id": "GERUND_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "GERUND_N12",
+    "rule_group": "Деепричастный оборот",
+    "sentence": "Студент решал задачу, проверяя каждый шаг.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "GERUND_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P01",
+    "rule_group": "Обращение",
+    "sentence": "Мама послушай меня.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N01",
+    "rule_group": "Обращение",
+    "sentence": "Мама пришла домой.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P02",
+    "rule_group": "Обращение",
+    "sentence": "Папа помоги мне.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N02",
+    "rule_group": "Обращение",
+    "sentence": "Папа работает в саду.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P03",
+    "rule_group": "Обращение",
+    "sentence": "Друзья подождите немного.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N03",
+    "rule_group": "Обращение",
+    "sentence": "Друзья уже приехали.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P04",
+    "rule_group": "Обращение",
+    "sentence": "Ребята начинайте работу.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N04",
+    "rule_group": "Обращение",
+    "sentence": "Ребята играют во дворе.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P05",
+    "rule_group": "Обращение",
+    "sentence": "Иван открой дверь.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N05",
+    "rule_group": "Обращение",
+    "sentence": "Иван открыл дверь.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P06",
+    "rule_group": "Обращение",
+    "sentence": "Катя принеси тетрадь.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_N06",
+    "rule_group": "Обращение",
+    "sentence": "Катя принесла тетрадь.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "APPEAL_P07",
+    "rule_group": "Обращение",
+    "sentence": "Скажи Маша правду.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N07",
+    "rule_group": "Обращение",
+    "sentence": "Скажи, Маша, правду.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P08",
+    "rule_group": "Обращение",
+    "sentence": "Спасибо мама!",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N08",
+    "rule_group": "Обращение",
+    "sentence": "Спасибо, мама!",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P09",
+    "rule_group": "Обращение",
+    "sentence": "Поздравляю тебя брат.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N09",
+    "rule_group": "Обращение",
+    "sentence": "Поздравляю тебя, брат.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P10",
+    "rule_group": "Обращение",
+    "sentence": "До встречи друзья.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N10",
+    "rule_group": "Обращение",
+    "sentence": "До встречи, друзья.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P11",
+    "rule_group": "Обращение",
+    "sentence": "Коллеги обратите внимание.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N11",
+    "rule_group": "Обращение",
+    "sentence": "Коллеги, обратите внимание.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_P12",
+    "rule_group": "Обращение",
+    "sentence": "Доктор помогите пациенту.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ],
+    "pair_id": "APPEAL_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "APPEAL_N12",
+    "rule_group": "Обращение",
+    "sentence": "Доктор, помогите пациенту.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "APPEAL_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P01",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "На столе лежали яблоки груши и сливы.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N01",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "На столе лежали яблоки, груши и сливы.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P02",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В корзине были яблоки груши и персики.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N02",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В корзине были яблоки, груши и персики.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P03",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Для салата купили помидоры огурцы и зелень.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N03",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Для салата купили помидоры, огурцы и зелень.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P04",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В комнате стояли стол стул и шкаф.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N04",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В комнате стояли стол, стул и шкаф.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P05",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В магазине продавали книги журналы и газеты.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N05",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В магазине продавали книги, журналы и газеты.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P06",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В саду росли розы тюльпаны и астры.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_N06",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В саду росли розы, тюльпаны и астры.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "HOMOGENEOUS_P07",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "На полке стояли чашки тарелки и блюдца.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N07",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "На полке стояли чашки, тарелки и блюдца.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P08",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Мы заказали чай кофе и сок.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N08",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Мы заказали чай, кофе и сок.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P09",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В отчёте указаны доходы расходы и прибыль.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N09",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В отчёте указаны доходы, расходы и прибыль.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P10",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Для проекта нужны знания опыт и внимание.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N10",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Для проекта нужны знания, опыт и внимание.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P11",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Она выбрала красные синие и зелёные карандаши.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N11",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "Она выбрала красные, синие и зелёные карандаши.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_P12",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В комнате были светлые просторные и уютные окна.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ],
+    "pair_id": "HOMOGENEOUS_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "HOMOGENEOUS_N12",
+    "rule_group": "Однородные члены предложения",
+    "sentence": "В комнате были светлые, просторные и уютные окна.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "HOMOGENEOUS_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P01",
+    "rule_group": "Причастный оборот",
+    "sentence": "Дом построенный рабочими выглядит красиво.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N01",
+    "rule_group": "Причастный оборот",
+    "sentence": "Построенный рабочими дом выглядит красиво.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P02",
+    "rule_group": "Причастный оборот",
+    "sentence": "Книга написанная молодым автором получила премию.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N02",
+    "rule_group": "Причастный оборот",
+    "sentence": "Написанная молодым автором книга получила премию.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P03",
+    "rule_group": "Причастный оборот",
+    "sentence": "Мальчик читающий книгу сидел у окна.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N03",
+    "rule_group": "Причастный оборот",
+    "sentence": "Читающий книгу мальчик сидел у окна.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P04",
+    "rule_group": "Причастный оборот",
+    "sentence": "Письмо отправленное вчера уже доставили.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N04",
+    "rule_group": "Причастный оборот",
+    "sentence": "Отправленное вчера письмо уже доставили.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P05",
+    "rule_group": "Причастный оборот",
+    "sentence": "Дорога ведущая к озеру была пустой.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N05",
+    "rule_group": "Причастный оборот",
+    "sentence": "Ведущая к озеру дорога была пустой.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P06",
+    "rule_group": "Причастный оборот",
+    "sentence": "Платье купленное на распродаже мне понравилось.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_N06",
+    "rule_group": "Причастный оборот",
+    "sentence": "Купленное на распродаже платье мне понравилось.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "PARTICIPLE_P07",
+    "rule_group": "Причастный оборот",
+    "sentence": "Доклад подготовленный студентами оказался интересным.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N07",
+    "rule_group": "Причастный оборот",
+    "sentence": "Подготовленный студентами доклад оказался интересным.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P08",
+    "rule_group": "Причастный оборот",
+    "sentence": "Песню исполненную артистом долго вспоминали.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N08",
+    "rule_group": "Причастный оборот",
+    "sentence": "Исполненная артистом песня запомнилась всем.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P09",
+    "rule_group": "Причастный оборот",
+    "sentence": "Дом окружённый высоким забором пустовал.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N09",
+    "rule_group": "Причастный оборот",
+    "sentence": "Окружённый высоким забором дом пустовал.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P10",
+    "rule_group": "Причастный оборот",
+    "sentence": "Документы подписанные директором лежали на столе.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N10",
+    "rule_group": "Причастный оборот",
+    "sentence": "Подписанные директором документы лежали на столе.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P11",
+    "rule_group": "Причастный оборот",
+    "sentence": "Туристы уставшие после перехода остановились у реки.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N11",
+    "rule_group": "Причастный оборот",
+    "sentence": "Уставшие после перехода туристы остановились у реки.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_P12",
+    "rule_group": "Причастный оборот",
+    "sentence": "Самолёт прибывший из Москвы задержался.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ],
+    "pair_id": "PARTICIPLE_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "PARTICIPLE_N12",
+    "rule_group": "Причастный оборот",
+    "sentence": "Прибывший из Москвы самолёт задержался.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "PARTICIPLE_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P01",
+    "rule_group": "Противительный союз",
+    "sentence": "Он хотел уйти а остался дома.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N01",
+    "rule_group": "Противительный союз",
+    "sentence": "Он хотел уйти, а остался дома.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P02",
+    "rule_group": "Противительный союз",
+    "sentence": "Не красный а синий.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N02",
+    "rule_group": "Противительный союз",
+    "sentence": "Не красный, а синий.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P03",
+    "rule_group": "Противительный союз",
+    "sentence": "Мы торопились но опоздали.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N03",
+    "rule_group": "Противительный союз",
+    "sentence": "Мы торопились, но опоздали.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P04",
+    "rule_group": "Противительный союз",
+    "sentence": "Он не спорил а слушал.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N04",
+    "rule_group": "Противительный союз",
+    "sentence": "Он не спорил, а слушал.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P05",
+    "rule_group": "Противительный союз",
+    "sentence": "Работа сложная но интересная.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N05",
+    "rule_group": "Противительный союз",
+    "sentence": "Работа сложная, но интересная.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P06",
+    "rule_group": "Противительный союз",
+    "sentence": "День был пасмурным а вечер солнечным.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_N06",
+    "rule_group": "Противительный союз",
+    "sentence": "День был пасмурным, а вечер солнечным.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CONTRASTIVE_P07",
+    "rule_group": "Противительный союз",
+    "sentence": "Не громко а тихо.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N07",
+    "rule_group": "Противительный союз",
+    "sentence": "Не громко, а тихо.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P08",
+    "rule_group": "Противительный союз",
+    "sentence": "Он говорил медленно но уверенно.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N08",
+    "rule_group": "Противительный союз",
+    "sentence": "Он говорил медленно, но уверенно.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P09",
+    "rule_group": "Противительный союз",
+    "sentence": "Мы не победили а проиграли.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N09",
+    "rule_group": "Противительный союз",
+    "sentence": "Мы не победили, а проиграли.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P10",
+    "rule_group": "Противительный союз",
+    "sentence": "Путь оказался долгим но безопасным.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N10",
+    "rule_group": "Противительный союз",
+    "sentence": "Путь оказался долгим, но безопасным.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P11",
+    "rule_group": "Противительный союз",
+    "sentence": "Она не плакала а улыбалась.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N11",
+    "rule_group": "Противительный союз",
+    "sentence": "Она не плакала, а улыбалась.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_P12",
+    "rule_group": "Противительный союз",
+    "sentence": "Это не ошибка а особенность.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ],
+    "pair_id": "CONTRASTIVE_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CONTRASTIVE_N12",
+    "rule_group": "Противительный союз",
+    "sentence": "Это не ошибка, а особенность.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CONTRASTIVE_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P01",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Солнце село и ветер стих.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N01",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Солнце село, и ветер стих.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P02",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Птицы улетели и небо потемнело.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N02",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Птицы улетели, и небо потемнело.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P03",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Звонок прозвенел и урок начался.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N03",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Звонок прозвенел, и урок начался.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P04",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Дождь закончился и солнце выглянуло.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N04",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Дождь закончился, и солнце выглянуло.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P05",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Мама приготовила ужин и папа накрыл на стол.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N05",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Мама приготовила ужин, и папа накрыл на стол.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P06",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Поезд остановился и пассажиры вышли.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_N06",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Поезд остановился, и пассажиры вышли.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPOUND_P07",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Листья пожелтели и ветер усилился.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N07",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Листья пожелтели, и ветер усилился.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P08",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Наступила ночь и город затих.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N08",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Наступила ночь, и город затих.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P09",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Мы вышли из дома и автобус уже уехал.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N09",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Мы вышли из дома, и автобус уже уехал.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P10",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Ветер стих и звёзды появились.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N10",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Ветер стих, и звёзды появились.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P11",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Я позвонил тебе и ты сразу ответил.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N11",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Я позвонил тебе, и ты сразу ответил.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_P12",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Гости разошлись и хозяева убрали посуду.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ],
+    "pair_id": "COMPOUND_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPOUND_N12",
+    "rule_group": "Сложносочинённое предложение",
+    "sentence": "Гости разошлись, и хозяева убрали посуду.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPOUND_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P01",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он был упрям как осёл.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N01",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он был упрям, как осёл.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P02",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Она красива как роза.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N02",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Она красива, как роза.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P03",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он смелый как лев.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N03",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он смелый, как лев.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P04",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Лёд блестел как стекло.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N04",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Лёд блестел, как стекло.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P05",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Снег лежал как белое покрывало.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N05",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Снег лежал, как белое покрывало.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P06",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Мальчик покраснел как помидор.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_N06",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Мальчик покраснел, как помидор.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "COMPARATIVE_P07",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Её глаза сияли как звёзды.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N07",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Её глаза сияли, как звёзды.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P08",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он дрожал как лист.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N08",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Он смотрел на неё как на старого друга.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P09",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Трава зеленела как изумруд.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N09",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Трава зеленела, как изумруд.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P10",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Она пела как соловей.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N10",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Она пела, как соловей.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P11",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Сердце билось как птица в клетке.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N11",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Сердце билось, как птица в клетке.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_P12",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Как и сестра он любит музыку.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ],
+    "pair_id": "COMPARATIVE_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "COMPARATIVE_N12",
+    "rule_group": "Сравнительный оборот",
+    "sentence": "Как и сестра, он любит музыку.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "COMPARATIVE_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P01",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Там у реки стоял дом.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_01",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N01",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Там, у реки, стоял дом.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_01",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P02",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Здесь возле школы росли деревья.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_02",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N02",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Здесь, возле школы, росли деревья.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_02",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P03",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Слева у самой дороги виднелся лес.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_03",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N03",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Слева, у самой дороги, виднелся лес.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_03",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P04",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Вдали за холмом показался поезд.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_04",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N04",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Вдали, за холмом, показался поезд.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_04",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P05",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Вечером около семи мы вернулись.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_05",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N05",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Вечером, около семи, мы вернулись.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_05",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P06",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Утром в шесть начался дождь.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_06",
+    "pair_role": "missing_comma",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_N06",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Утром, в шесть, начался дождь.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_06",
+    "pair_role": "correct_control",
+    "split": "development"
+  },
+  {
+    "id": "CLARIFYING_P07",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Справа у ворот стояла машина.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_07",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N07",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Справа, у ворот, стояла машина.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_07",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P08",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Внизу под мостом шумела река.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_08",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N08",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Внизу, под мостом, шумела река.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_08",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P09",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Здесь у старого моста начиналась тропа.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_09",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N09",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Здесь, у старого моста, начиналась тропа.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_09",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P10",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Впереди за поворотом виднелась деревня.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_10",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N10",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Впереди, за поворотом, виднелась деревня.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_10",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P11",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Там около старого парка стоял киоск.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_11",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N11",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Там, около старого парка, стоял киоск.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_11",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_P12",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Ночью после полуночи начался снегопад.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ],
+    "pair_id": "CLARIFYING_12",
+    "pair_role": "missing_comma",
+    "split": "holdout"
+  },
+  {
+    "id": "CLARIFYING_N12",
+    "rule_group": "Уточняющий член предложения",
+    "sentence": "Ночью, после полуночи, начался снегопад.",
+    "has_punctuation_error": false,
+    "expected_rules": [],
+    "pair_id": "CLARIFYING_12",
+    "pair_role": "correct_control",
+    "split": "holdout"
+  }
+]

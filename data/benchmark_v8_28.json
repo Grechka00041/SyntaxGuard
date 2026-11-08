@@ -1,0 +1,198 @@
+[
+  {
+    "id": "P01",
+    "sentence": "К сожалению я опоздала.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ]
+  },
+  {
+    "id": "P02",
+    "sentence": "Он конечно придёт.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Вводное слово"
+    ]
+  },
+  {
+    "id": "P03",
+    "sentence": "Маша закрой окно.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ]
+  },
+  {
+    "id": "P04",
+    "sentence": "Скажи Маша правду.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ]
+  },
+  {
+    "id": "P05",
+    "sentence": "Анализируя данные студент нашёл ошибку.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ]
+  },
+  {
+    "id": "P06",
+    "sentence": "Улыбаясь она вошла в комнату.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Деепричастный оборот"
+    ]
+  },
+  {
+    "id": "P07",
+    "sentence": "Студент решивший задачу получил пятёрку.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ]
+  },
+  {
+    "id": "P08",
+    "sentence": "Девушка читавшая книгу сидела у окна.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Причастный оборот"
+    ]
+  },
+  {
+    "id": "P09",
+    "sentence": "Купил хлеб молоко и сыр.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Однородные члены предложения"
+    ]
+  },
+  {
+    "id": "P10",
+    "sentence": "Дождь закончился но ветер усилился.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сложносочинённое предложение"
+    ]
+  },
+  {
+    "id": "P11",
+    "sentence": "Он был упрям как осёл.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Сравнительный оборот"
+    ]
+  },
+  {
+    "id": "P12",
+    "sentence": "Там у реки стоял дом.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Уточняющий член предложения"
+    ]
+  },
+  {
+    "id": "P13",
+    "sentence": "Не красный а синий.",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Противительный союз"
+    ]
+  },
+  {
+    "id": "P14",
+    "sentence": "Спасибо мама!",
+    "has_punctuation_error": true,
+    "expected_rules": [
+      "Обращение"
+    ]
+  },
+  {
+    "id": "N01",
+    "sentence": "Она, улыбаясь, вошла в комнату.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N02",
+    "sentence": "Построенный недавно дом выглядел красиво.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N03",
+    "sentence": "Я, к счастью, успела.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N04",
+    "sentence": "Купил хлеб, молоко и сыр.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N05",
+    "sentence": "Маша, закрой окно.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N06",
+    "sentence": "Дождь закончился, но ветер усилился.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N07",
+    "sentence": "Он работает как учитель.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N08",
+    "sentence": "Он, как учитель, объяснил материал.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N09",
+    "sentence": "Он, как и брат, любит спорт.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N10",
+    "sentence": "Там, у реки, стоял дом.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N11",
+    "sentence": "Спасибо, мама!",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N12",
+    "sentence": "Маша пришла и села.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N13",
+    "sentence": "Маша, закрой окно и позови папу.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  },
+  {
+    "id": "N14",
+    "sentence": "Быстро да аккуратно.",
+    "has_punctuation_error": false,
+    "expected_rules": []
+  }
+]

@@ -1,0 +1,5316 @@
+{
+  "metrics": {
+    "total": 216,
+    "tp": 108,
+    "fp": 0,
+    "tn": 108,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "accuracy": 1.0
+  },
+  "rule_level_metrics": {
+    "Вводное слово": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Деепричастный оборот": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Обращение": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Однородные члены предложения": {
+      "total": 216,
+      "tp": 12,
+      "fp": 2,
+      "tn": 202,
+      "fn": 0,
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1": 0.923076923076923,
+      "accuracy": 0.9907407407407407
+    },
+    "Причастный оборот": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Противительный союз": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Сложносочинённое предложение": {
+      "total": 216,
+      "tp": 10,
+      "fp": 0,
+      "tn": 204,
+      "fn": 2,
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1": 0.9090909090909091,
+      "accuracy": 0.9907407407407407
+    },
+    "Сравнительный оборот": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Уточняющий член предложения": {
+      "total": 216,
+      "tp": 12,
+      "fp": 0,
+      "tn": 204,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "macro_rule_metrics": {
+    "precision": 0.9841269841269842,
+    "recall": 0.9814814814814814,
+    "f1": 0.9813519813519815,
+    "accuracy": 0.9979423868312757
+  },
+  "per_category_sentence_metrics": {
+    "Вводное слово": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Деепричастный оборот": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Обращение": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Однородные члены предложения": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Причастный оборот": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Противительный союз": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Сложносочинённое предложение": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Сравнительный оборот": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "Уточняющий член предложения": {
+      "total": 24,
+      "tp": 12,
+      "fp": 0,
+      "tn": 12,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "per_split_sentence_metrics": {
+    "development": {
+      "total": 108,
+      "tp": 54,
+      "fp": 0,
+      "tn": 54,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    },
+    "holdout": {
+      "total": 108,
+      "tp": 54,
+      "fp": 0,
+      "tn": 54,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "accuracy": 1.0
+    }
+  },
+  "per_rule_recall": {
+    "Вводное слово": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Деепричастный оборот": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Обращение": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Однородные члены предложения": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Причастный оборот": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Противительный союз": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Сложносочинённое предложение": {
+      "total": 12,
+      "detected": 10,
+      "missed": 2,
+      "recall": 0.8333333333333334
+    },
+    "Сравнительный оборот": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    },
+    "Уточняющий член предложения": {
+      "total": 12,
+      "detected": 12,
+      "missed": 0,
+      "recall": 1.0
+    }
+  },
+  "exact_rule_match_rate": 0.9907407407407407,
+  "exact_rule_matches": 214,
+  "false_positives": [],
+  "false_negatives": [],
+  "rule_false_positives": [
+    {
+      "id": "COMPOUND_P01",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_01",
+      "sentence": "Солнце село и ветер стих.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 6,
+          "end": 7,
+          "suggestion": "Поставьте запятую после слова «Солнце».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    },
+    {
+      "id": "COMPOUND_P10",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_10",
+      "sentence": "Ветер стих и звёзды появились.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 5,
+          "end": 6,
+          "suggestion": "Поставьте запятую после слова «Ветер».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    }
+  ],
+  "rule_false_negatives": [
+    {
+      "id": "COMPOUND_P01",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_01",
+      "sentence": "Солнце село и ветер стих.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 6,
+          "end": 7,
+          "suggestion": "Поставьте запятую после слова «Солнце».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    },
+    {
+      "id": "COMPOUND_P10",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_10",
+      "sentence": "Ветер стих и звёзды появились.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 5,
+          "end": 6,
+          "suggestion": "Поставьте запятую после слова «Ветер».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    }
+  ],
+  "details": [
+    {
+      "id": "INTRO_P01",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_01",
+      "sentence": "К сожалению я не успел на поезд.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 11,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N01",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_01",
+      "sentence": "К сожалению, я не успел на поезд.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P02",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_02",
+      "sentence": "Мы конечно поможем тебе.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание в середине предложения обычно выделяется запятой слева.",
+          "start": 3,
+          "end": 10,
+          "suggestion": "Поставьте запятую перед вводным словом или сочетанием.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 3,
+          "end": 10,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N02",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_02",
+      "sentence": "Мы, конечно, поможем тебе.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P03",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_03",
+      "sentence": "Он вероятно уже ушёл.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание в середине предложения обычно выделяется запятой слева.",
+          "start": 3,
+          "end": 11,
+          "suggestion": "Поставьте запятую перед вводным словом или сочетанием.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 3,
+          "end": 11,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N03",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_03",
+      "sentence": "Он, вероятно, уже ушёл.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P04",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_04",
+      "sentence": "Например можно начать с простого.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 8,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N04",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_04",
+      "sentence": "Например, можно начать с простого.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P05",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_05",
+      "sentence": "Во-первых нужно проверить данные.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 9,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N05",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_05",
+      "sentence": "Во-первых, нужно проверить данные.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P06",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_06",
+      "sentence": "По-видимому поезд задерживается.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 11,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N06",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_06",
+      "sentence": "По-видимому, поезд задерживается.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P07",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_07",
+      "sentence": "К счастью всё закончилось хорошо.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 9,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N07",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_07",
+      "sentence": "К счастью, всё закончилось хорошо.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P08",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_08",
+      "sentence": "Она безусловно права.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание в середине предложения обычно выделяется запятой слева.",
+          "start": 4,
+          "end": 14,
+          "suggestion": "Поставьте запятую перед вводным словом или сочетанием.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 4,
+          "end": 14,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N08",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_08",
+      "sentence": "Она, безусловно, права.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P09",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_09",
+      "sentence": "Кстати я нашёл решение.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 6,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N09",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_09",
+      "sentence": "Кстати, я нашёл решение.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P10",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_10",
+      "sentence": "Следовательно опыт подтверждает гипотезу.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 13,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N10",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_10",
+      "sentence": "Следовательно, опыт подтверждает гипотезу.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P11",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_11",
+      "sentence": "Впрочем спорить бесполезно.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 7,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N11",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_11",
+      "sentence": "Впрочем, спорить бесполезно.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_P12",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_12",
+      "sentence": "К несчастью они опоздали.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Вводное слово"
+      ],
+      "detected_rules": [
+        "Вводное слово"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Вводное слово",
+          "message": "Вводное слово или сочетание обычно отделяется запятой от последующей части предложения.",
+          "start": 0,
+          "end": 11,
+          "suggestion": "Поставьте запятую после вводного слова или сочетания.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "INTRO_N12",
+      "rule_group": "Вводное слово",
+      "pair_id": "INTRO_12",
+      "sentence": "К несчастью, они опоздали.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P01",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_01",
+      "sentence": "Закончив работу он отправился домой.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 15,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N01",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_01",
+      "sentence": "Закончив работу, он отправился домой.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P02",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_02",
+      "sentence": "Увидев друга девушка улыбнулась.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 12,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N02",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_02",
+      "sentence": "Увидев друга, девушка улыбнулась.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P03",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_03",
+      "sentence": "Подойдя к двери он постучал.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 15,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N03",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_03",
+      "sentence": "Подойдя к двери, он постучал.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P04",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_04",
+      "sentence": "Прочитав письмо Анна задумалась.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 15,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N04",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_04",
+      "sentence": "Прочитав письмо, Анна задумалась.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P05",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_05",
+      "sentence": "Не заметив ошибки редактор отправил текст.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 3,
+          "end": 17,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N05",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_05",
+      "sentence": "Не заметив ошибки, редактор отправил текст.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P06",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_06",
+      "sentence": "Собрав вещи туристы вышли из палатки.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 11,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N06",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_06",
+      "sentence": "Собрав вещи, туристы вышли из палатки.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P07",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_07",
+      "sentence": "Вернувшись домой отец приготовил ужин.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 21,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N07",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_07",
+      "sentence": "Вернувшись домой, отец приготовил ужин.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P08",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_08",
+      "sentence": "Открыв окно она впустила свежий воздух.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 11,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N08",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_08",
+      "sentence": "Открыв окно, она впустила свежий воздух.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P09",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_09",
+      "sentence": "Переходя дорогу пешеход посмотрел по сторонам.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 15,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N09",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_09",
+      "sentence": "Переходя дорогу, пешеход посмотрел по сторонам.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P10",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_10",
+      "sentence": "Проверив расчёты инженер подписал отчёт.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот в начале предложения обычно отделяется запятой после себя.",
+          "start": 0,
+          "end": 16,
+          "suggestion": "Поставьте запятую после деепричастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N10",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_10",
+      "sentence": "Проверив расчёты, инженер подписал отчёт.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P11",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_11",
+      "sentence": "Она улыбалась вспоминая детство.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот обычно обособляется запятой.",
+          "start": 14,
+          "end": 31,
+          "suggestion": "Поставьте запятую перед деепричастным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N11",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_11",
+      "sentence": "Она улыбалась, вспоминая детство.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_P12",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_12",
+      "sentence": "Студент решал задачу проверяя каждый шаг.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Деепричастный оборот"
+      ],
+      "detected_rules": [
+        "Деепричастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Деепричастный оборот",
+          "message": "Деепричастный оборот обычно обособляется запятой.",
+          "start": 21,
+          "end": 40,
+          "suggestion": "Поставьте запятую перед деепричастным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "GERUND_N12",
+      "rule_group": "Деепричастный оборот",
+      "pair_id": "GERUND_12",
+      "sentence": "Студент решал задачу, проверяя каждый шаг.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P01",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_01",
+      "sentence": "Мама послушай меня.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 4,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N01",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_01",
+      "sentence": "Мама пришла домой.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P02",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_02",
+      "sentence": "Папа помоги мне.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 4,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N02",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_02",
+      "sentence": "Папа работает в саду.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P03",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_03",
+      "sentence": "Друзья подождите немного.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 6,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N03",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_03",
+      "sentence": "Друзья уже приехали.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P04",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_04",
+      "sentence": "Ребята начинайте работу.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 6,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N04",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_04",
+      "sentence": "Ребята играют во дворе.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P05",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_05",
+      "sentence": "Иван открой дверь.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 4,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N05",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_05",
+      "sentence": "Иван открыл дверь.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P06",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_06",
+      "sentence": "Катя принеси тетрадь.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 4,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N06",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_06",
+      "sentence": "Катя принесла тетрадь.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P07",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_07",
+      "sentence": "Скажи Маша правду.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в середине предложения выделяется запятыми с двух сторон.",
+          "start": 6,
+          "end": 10,
+          "suggestion": "Поставьте запятую перед обращением.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Обращение",
+          "message": "Обращение в середине предложения выделяется запятыми с двух сторон.",
+          "start": 6,
+          "end": 10,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N07",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_07",
+      "sentence": "Скажи, Маша, правду.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P08",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_08",
+      "sentence": "Спасибо мама!",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в конце предложения обычно отделяется запятой слева.",
+          "start": 8,
+          "end": 12,
+          "suggestion": "Поставьте запятую перед обращением.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N08",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_08",
+      "sentence": "Спасибо, мама!",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P09",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_09",
+      "sentence": "Поздравляю тебя брат.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в конце предложения обычно отделяется запятой слева.",
+          "start": 16,
+          "end": 20,
+          "suggestion": "Поставьте запятую перед обращением.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N09",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_09",
+      "sentence": "Поздравляю тебя, брат.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P10",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_10",
+      "sentence": "До встречи друзья.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в конце предложения обычно отделяется запятой слева.",
+          "start": 11,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед обращением.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N10",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_10",
+      "sentence": "До встречи, друзья.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P11",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_11",
+      "sentence": "Коллеги обратите внимание.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 7,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N11",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_11",
+      "sentence": "Коллеги, обратите внимание.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_P12",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_12",
+      "sentence": "Доктор помогите пациенту.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Обращение"
+      ],
+      "detected_rules": [
+        "Обращение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Обращение",
+          "message": "Обращение в начале предложения отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 6,
+          "suggestion": "Поставьте запятую после обращения.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "APPEAL_N12",
+      "rule_group": "Обращение",
+      "pair_id": "APPEAL_12",
+      "sentence": "Доктор, помогите пациенту.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P01",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_01",
+      "sentence": "На столе лежали яблоки груши и сливы.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 22,
+          "end": 23,
+          "suggestion": "Поставьте запятую после слова «яблоки».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N01",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_01",
+      "sentence": "На столе лежали яблоки, груши и сливы.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P02",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_02",
+      "sentence": "В корзине были яблоки груши и персики.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 21,
+          "end": 22,
+          "suggestion": "Поставьте запятую после слова «яблоки».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N02",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_02",
+      "sentence": "В корзине были яблоки, груши и персики.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P03",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_03",
+      "sentence": "Для салата купили помидоры огурцы и зелень.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 26,
+          "end": 27,
+          "suggestion": "Поставьте запятую после слова «помидоры».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N03",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_03",
+      "sentence": "Для салата купили помидоры, огурцы и зелень.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P04",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_04",
+      "sentence": "В комнате стояли стол стул и шкаф.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 21,
+          "end": 22,
+          "suggestion": "Поставьте запятую после слова «стол».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N04",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_04",
+      "sentence": "В комнате стояли стол, стул и шкаф.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P05",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_05",
+      "sentence": "В магазине продавали книги журналы и газеты.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 26,
+          "end": 27,
+          "suggestion": "Поставьте запятую после слова «книги».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N05",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_05",
+      "sentence": "В магазине продавали книги, журналы и газеты.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P06",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_06",
+      "sentence": "В саду росли розы тюльпаны и астры.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 17,
+          "end": 18,
+          "suggestion": "Поставьте запятую после слова «розы».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N06",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_06",
+      "sentence": "В саду росли розы, тюльпаны и астры.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P07",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_07",
+      "sentence": "На полке стояли чашки тарелки и блюдца.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 21,
+          "end": 22,
+          "suggestion": "Поставьте запятую после слова «чашки».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N07",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_07",
+      "sentence": "На полке стояли чашки, тарелки и блюдца.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P08",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_08",
+      "sentence": "Мы заказали чай кофе и сок.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 15,
+          "end": 16,
+          "suggestion": "Поставьте запятую после слова «чай».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N08",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_08",
+      "sentence": "Мы заказали чай, кофе и сок.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P09",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_09",
+      "sentence": "В отчёте указаны доходы расходы и прибыль.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 23,
+          "end": 24,
+          "suggestion": "Поставьте запятую после слова «доходы».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N09",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_09",
+      "sentence": "В отчёте указаны доходы, расходы и прибыль.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P10",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_10",
+      "sentence": "Для проекта нужны знания опыт и внимание.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 24,
+          "end": 25,
+          "suggestion": "Поставьте запятую после слова «знания».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N10",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_10",
+      "sentence": "Для проекта нужны знания, опыт и внимание.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P11",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_11",
+      "sentence": "Она выбрала красные синие и зелёные карандаши.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 19,
+          "end": 20,
+          "suggestion": "Поставьте запятую после слова «красные».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N11",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_11",
+      "sentence": "Она выбрала красные, синие и зелёные карандаши.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_P12",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_12",
+      "sentence": "В комнате были светлые просторные и уютные окна.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Однородные члены предложения"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 22,
+          "end": 23,
+          "suggestion": "Поставьте запятую после слова «светлые».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "HOMOGENEOUS_N12",
+      "rule_group": "Однородные члены предложения",
+      "pair_id": "HOMOGENEOUS_12",
+      "sentence": "В комнате были светлые, просторные и уютные окна.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P01",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_01",
+      "sentence": "Дом построенный рабочими выглядит красиво.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 4,
+          "end": 15,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 4,
+          "end": 24,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N01",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_01",
+      "sentence": "Построенный рабочими дом выглядит красиво.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P02",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_02",
+      "sentence": "Книга написанная молодым автором получила премию.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 6,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 6,
+          "end": 32,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N02",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_02",
+      "sentence": "Написанная молодым автором книга получила премию.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P03",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_03",
+      "sentence": "Мальчик читающий книгу сидел у окна.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 8,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 8,
+          "end": 22,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N03",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_03",
+      "sentence": "Читающий книгу мальчик сидел у окна.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P04",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_04",
+      "sentence": "Письмо отправленное вчера уже доставили.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 7,
+          "end": 19,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 7,
+          "end": 29,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N04",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_04",
+      "sentence": "Отправленное вчера письмо уже доставили.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P05",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_05",
+      "sentence": "Дорога ведущая к озеру была пустой.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 7,
+          "end": 14,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 7,
+          "end": 22,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N05",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_05",
+      "sentence": "Ведущая к озеру дорога была пустой.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P06",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_06",
+      "sentence": "Платье купленное на распродаже мне понравилось.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 7,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 7,
+          "end": 30,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N06",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_06",
+      "sentence": "Купленное на распродаже платье мне понравилось.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P07",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_07",
+      "sentence": "Доклад подготовленный студентами оказался интересным.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 7,
+          "end": 21,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 7,
+          "end": 32,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N07",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_07",
+      "sentence": "Подготовленный студентами доклад оказался интересным.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P08",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_08",
+      "sentence": "Песню исполненную артистом долго вспоминали.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 6,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 6,
+          "end": 32,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N08",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_08",
+      "sentence": "Исполненная артистом песня запомнилась всем.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P09",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_09",
+      "sentence": "Дом окружённый высоким забором пустовал.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 4,
+          "end": 14,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 4,
+          "end": 30,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N09",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_09",
+      "sentence": "Окружённый высоким забором дом пустовал.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P10",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_10",
+      "sentence": "Документы подписанные директором лежали на столе.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 10,
+          "end": 21,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 10,
+          "end": 32,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N10",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_10",
+      "sentence": "Подписанные директором документы лежали на столе.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P11",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_11",
+      "sentence": "Туристы уставшие после перехода остановились у реки.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 8,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 8,
+          "end": 31,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N11",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_11",
+      "sentence": "Уставшие после перехода туристы остановились у реки.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_P12",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_12",
+      "sentence": "Самолёт прибывший из Москвы задержался.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Причастный оборот"
+      ],
+      "detected_rules": [
+        "Причастный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Причастный оборот",
+          "message": "Причастный оборот после определяемого слова обычно обособляется запятой.",
+          "start": 8,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед причастным оборотом.",
+          "severity": "warning"
+        },
+        {
+          "rule": "Причастный оборот",
+          "message": "После причастного оборота перед продолжением предложения нужна закрывающая запятая.",
+          "start": 8,
+          "end": 27,
+          "suggestion": "Поставьте запятую после причастного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "PARTICIPLE_N12",
+      "rule_group": "Причастный оборот",
+      "pair_id": "PARTICIPLE_12",
+      "sentence": "Прибывший из Москвы самолёт задержался.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P01",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_01",
+      "sentence": "Он хотел уйти а остался дома.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 14,
+          "end": 15,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N01",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_01",
+      "sentence": "Он хотел уйти, а остался дома.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P02",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_02",
+      "sentence": "Не красный а синий.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 11,
+          "end": 12,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N02",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_02",
+      "sentence": "Не красный, а синий.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P03",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_03",
+      "sentence": "Мы торопились но опоздали.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «но» между однородными членами ставится запятая.",
+          "start": 14,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед союзом «но».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N03",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_03",
+      "sentence": "Мы торопились, но опоздали.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P04",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_04",
+      "sentence": "Он не спорил а слушал.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 13,
+          "end": 14,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N04",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_04",
+      "sentence": "Он не спорил, а слушал.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P05",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_05",
+      "sentence": "Работа сложная но интересная.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «но» между однородными членами ставится запятая.",
+          "start": 15,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед союзом «но».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N05",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_05",
+      "sentence": "Работа сложная, но интересная.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P06",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_06",
+      "sentence": "День был пасмурным а вечер солнечным.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 19,
+          "end": 20,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N06",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_06",
+      "sentence": "День был пасмурным, а вечер солнечным.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P07",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_07",
+      "sentence": "Не громко а тихо.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 10,
+          "end": 11,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N07",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_07",
+      "sentence": "Не громко, а тихо.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P08",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_08",
+      "sentence": "Он говорил медленно но уверенно.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «но» между однородными членами ставится запятая.",
+          "start": 20,
+          "end": 22,
+          "suggestion": "Поставьте запятую перед союзом «но».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N08",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_08",
+      "sentence": "Он говорил медленно, но уверенно.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P09",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_09",
+      "sentence": "Мы не победили а проиграли.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 15,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N09",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_09",
+      "sentence": "Мы не победили, а проиграли.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P10",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_10",
+      "sentence": "Путь оказался долгим но безопасным.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «но» между однородными членами ставится запятая.",
+          "start": 21,
+          "end": 23,
+          "suggestion": "Поставьте запятую перед союзом «но».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N10",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_10",
+      "sentence": "Путь оказался долгим, но безопасным.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P11",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_11",
+      "sentence": "Она не плакала а улыбалась.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 15,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N11",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_11",
+      "sentence": "Она не плакала, а улыбалась.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_P12",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_12",
+      "sentence": "Это не ошибка а особенность.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Противительный союз"
+      ],
+      "detected_rules": [
+        "Противительный союз"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Противительный союз",
+          "message": "Перед противительным союзом «а» между однородными членами ставится запятая.",
+          "start": 14,
+          "end": 15,
+          "suggestion": "Поставьте запятую перед союзом «а».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CONTRASTIVE_N12",
+      "rule_group": "Противительный союз",
+      "pair_id": "CONTRASTIVE_12",
+      "sentence": "Это не ошибка, а особенность.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P01",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_01",
+      "sentence": "Солнце село и ветер стих.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 6,
+          "end": 7,
+          "suggestion": "Поставьте запятую после слова «Солнце».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    },
+    {
+      "id": "COMPOUND_N01",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_01",
+      "sentence": "Солнце село, и ветер стих.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P02",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_02",
+      "sentence": "Птицы улетели и небо потемнело.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 14,
+          "end": 15,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N02",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_02",
+      "sentence": "Птицы улетели, и небо потемнело.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P03",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_03",
+      "sentence": "Звонок прозвенел и урок начался.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 17,
+          "end": 18,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N03",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_03",
+      "sentence": "Звонок прозвенел, и урок начался.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P04",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_04",
+      "sentence": "Дождь закончился и солнце выглянуло.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 17,
+          "end": 18,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N04",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_04",
+      "sentence": "Дождь закончился, и солнце выглянуло.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P05",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_05",
+      "sentence": "Мама приготовила ужин и папа накрыл на стол.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 22,
+          "end": 23,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N05",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_05",
+      "sentence": "Мама приготовила ужин, и папа накрыл на стол.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P06",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_06",
+      "sentence": "Поезд остановился и пассажиры вышли.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 18,
+          "end": 19,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N06",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_06",
+      "sentence": "Поезд остановился, и пассажиры вышли.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P07",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_07",
+      "sentence": "Листья пожелтели и ветер усилился.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 17,
+          "end": 18,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N07",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_07",
+      "sentence": "Листья пожелтели, и ветер усилился.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P08",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_08",
+      "sentence": "Наступила ночь и город затих.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 15,
+          "end": 16,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N08",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_08",
+      "sentence": "Наступила ночь, и город затих.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P09",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_09",
+      "sentence": "Мы вышли из дома и автобус уже уехал.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 17,
+          "end": 18,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N09",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_09",
+      "sentence": "Мы вышли из дома, и автобус уже уехал.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P10",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_10",
+      "sentence": "Ветер стих и звёзды появились.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Однородные члены предложения"
+      ],
+      "missed_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "unexpected_rules": [
+        "Однородные члены предложения"
+      ],
+      "findings": [
+        {
+          "rule": "Однородные члены предложения",
+          "message": "В перечислении однородных членов перед одиночным союзом «и», «или» или «либо» между предыдущими элементами обычно ставится запятая.",
+          "start": 5,
+          "end": 6,
+          "suggestion": "Поставьте запятую после слова «Ветер».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": false
+    },
+    {
+      "id": "COMPOUND_N10",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_10",
+      "sentence": "Ветер стих, и звёзды появились.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P11",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_11",
+      "sentence": "Я позвонил тебе и ты сразу ответил.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 16,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N11",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_11",
+      "sentence": "Я позвонил тебе, и ты сразу ответил.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_P12",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_12",
+      "sentence": "Гости разошлись и хозяева убрали посуду.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "detected_rules": [
+        "Сложносочинённое предложение"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сложносочинённое предложение",
+          "message": "Между частями сложносочинённого предложения обычно ставится запятая перед сочинительным союзом.",
+          "start": 16,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед союзом «и».",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPOUND_N12",
+      "rule_group": "Сложносочинённое предложение",
+      "pair_id": "COMPOUND_12",
+      "sentence": "Гости разошлись, и хозяева убрали посуду.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P01",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_01",
+      "sentence": "Он был упрям как осёл.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 13,
+          "end": 21,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N01",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_01",
+      "sentence": "Он был упрям, как осёл.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P02",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_02",
+      "sentence": "Она красива как роза.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 12,
+          "end": 20,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N02",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_02",
+      "sentence": "Она красива, как роза.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P03",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_03",
+      "sentence": "Он смелый как лев.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 10,
+          "end": 17,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N03",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_03",
+      "sentence": "Он смелый, как лев.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P04",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_04",
+      "sentence": "Лёд блестел как стекло.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 12,
+          "end": 22,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N04",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_04",
+      "sentence": "Лёд блестел, как стекло.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P05",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_05",
+      "sentence": "Снег лежал как белое покрывало.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 11,
+          "end": 30,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N05",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_05",
+      "sentence": "Снег лежал, как белое покрывало.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P06",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_06",
+      "sentence": "Мальчик покраснел как помидор.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 18,
+          "end": 29,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N06",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_06",
+      "sentence": "Мальчик покраснел, как помидор.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P07",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_07",
+      "sentence": "Её глаза сияли как звёзды.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 15,
+          "end": 25,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N07",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_07",
+      "sentence": "Её глаза сияли, как звёзды.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P08",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_08",
+      "sentence": "Он дрожал как лист.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 10,
+          "end": 18,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N08",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_08",
+      "sentence": "Он смотрел на неё как на старого друга.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P09",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_09",
+      "sentence": "Трава зеленела как изумруд.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 15,
+          "end": 26,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N09",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_09",
+      "sentence": "Трава зеленела, как изумруд.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P10",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_10",
+      "sentence": "Она пела как соловей.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 9,
+          "end": 20,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N10",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_10",
+      "sentence": "Она пела, как соловей.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P11",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_11",
+      "sentence": "Сердце билось как птица в клетке.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Сравнительный оборот с «как» в данном типовом контексте отделяется запятой.",
+          "start": 14,
+          "end": 23,
+          "suggestion": "Поставьте запятую перед сравнительным оборотом.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N11",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_11",
+      "sentence": "Сердце билось, как птица в клетке.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_P12",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_12",
+      "sentence": "Как и сестра он любит музыку.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Сравнительный оборот"
+      ],
+      "detected_rules": [
+        "Сравнительный оборот"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Сравнительный оборот",
+          "message": "Конструкция «как и ...» в начале предложения обычно отделяется запятой от последующей части.",
+          "start": 0,
+          "end": 12,
+          "suggestion": "Поставьте запятую после сравнительного оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "COMPARATIVE_N12",
+      "rule_group": "Сравнительный оборот",
+      "pair_id": "COMPARATIVE_12",
+      "sentence": "Как и сестра, он любит музыку.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P01",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_01",
+      "sentence": "Там у реки стоял дом.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 4,
+          "end": 10,
+          "suggestion": "Поставьте запятую после слова «Там».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 4,
+          "end": 10,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N01",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_01",
+      "sentence": "Там, у реки, стоял дом.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P02",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_02",
+      "sentence": "Здесь возле школы росли деревья.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 17,
+          "suggestion": "Поставьте запятую после слова «Здесь».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 17,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N02",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_02",
+      "sentence": "Здесь, возле школы, росли деревья.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P03",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_03",
+      "sentence": "Слева у самой дороги виднелся лес.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 20,
+          "suggestion": "Поставьте запятую после слова «Слева».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 20,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N03",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_03",
+      "sentence": "Слева, у самой дороги, виднелся лес.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P04",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_04",
+      "sentence": "Вдали за холмом показался поезд.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 15,
+          "suggestion": "Поставьте запятую после слова «Вдали».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 15,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N04",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_04",
+      "sentence": "Вдали, за холмом, показался поезд.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P05",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_05",
+      "sentence": "Вечером около семи мы вернулись.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 8,
+          "end": 21,
+          "suggestion": "Поставьте запятую после слова «Вечером».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 8,
+          "end": 21,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N05",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_05",
+      "sentence": "Вечером, около семи, мы вернулись.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P06",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_06",
+      "sentence": "Утром в шесть начался дождь.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 13,
+          "suggestion": "Поставьте запятую после слова «Утром».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 13,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N06",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_06",
+      "sentence": "Утром, в шесть, начался дождь.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P07",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_07",
+      "sentence": "Справа у ворот стояла машина.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 7,
+          "end": 14,
+          "suggestion": "Поставьте запятую после слова «Справа».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 7,
+          "end": 14,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N07",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_07",
+      "sentence": "Справа, у ворот, стояла машина.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P08",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_08",
+      "sentence": "Внизу под мостом шумела река.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 16,
+          "suggestion": "Поставьте запятую после слова «Внизу».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 16,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N08",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_08",
+      "sentence": "Внизу, под мостом, шумела река.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P09",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_09",
+      "sentence": "Здесь у старого моста начиналась тропа.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 21,
+          "suggestion": "Поставьте запятую после слова «Здесь».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 21,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N09",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_09",
+      "sentence": "Здесь, у старого моста, начиналась тропа.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P10",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_10",
+      "sentence": "Впереди за поворотом виднелась деревня.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 8,
+          "end": 20,
+          "suggestion": "Поставьте запятую после слова «Впереди».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 8,
+          "end": 20,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N10",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_10",
+      "sentence": "Впереди, за поворотом, виднелась деревня.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P11",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_11",
+      "sentence": "Там около старого парка стоял киоск.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 4,
+          "end": 23,
+          "suggestion": "Поставьте запятую после слова «Там».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 4,
+          "end": 23,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N11",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_11",
+      "sentence": "Там, около старого парка, стоял киоск.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_P12",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_12",
+      "sentence": "Ночью после полуночи начался снегопад.",
+      "gold_error": true,
+      "predicted_error": true,
+      "expected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "detected_rules": [
+        "Уточняющий член предложения"
+      ],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство места или времени обычно отделяется запятой от уточняемого слова.",
+          "start": 6,
+          "end": 20,
+          "suggestion": "Поставьте запятую после слова «Ночью».",
+          "severity": "warning"
+        },
+        {
+          "rule": "Уточняющий член предложения",
+          "message": "Уточняющее обстоятельство обычно обособляется с двух сторон, если после него продолжается предложение.",
+          "start": 6,
+          "end": 20,
+          "suggestion": "Поставьте запятую после уточняющего оборота.",
+          "severity": "warning"
+        }
+      ],
+      "sentence_match": true,
+      "exact_rule_match": true
+    },
+    {
+      "id": "CLARIFYING_N12",
+      "rule_group": "Уточняющий член предложения",
+      "pair_id": "CLARIFYING_12",
+      "sentence": "Ночью, после полуночи, начался снегопад.",
+      "gold_error": false,
+      "predicted_error": false,
+      "expected_rules": [],
+      "detected_rules": [],
+      "missed_rules": [],
+      "unexpected_rules": [],
+      "findings": [],
+      "sentence_match": true,
+      "exact_rule_match": true
+    }
+  ],
+  "metric_level": "sentence_and_rule_group"
+}

@@ -1,149 +1,71 @@
-import nltk
-from nltk import CFG, ChartParser
-from preprocessor import sentence_to_tags
+"""Основной координатор пунктуационных правил."""
+import re
+from preprocessor import tokenize_and_tag
+from rules.existing import check_adverbial_participles, check_participial_phrases
+from rules.introductory import check_introductory_words
+from rules.homogeneous import check_homogeneous_members
+from rules.appeals import check_appeals
+from rules.compound import check_compound_sentences
+from rules.comparative import check_comparative_phrases
+from rules.clarifying import check_clarifying_members
+from rules.contrastive import check_contrastive_conjunctions
+from rules.base import deduplicate_findings
 
 try:
-    nltk.data.find('tokenizers/punkt_tab')
-except LookupError:
-    nltk.download('punkt_tab', quiet=True)
+    import nltk
+    try:
+        nltk.data.find("tokenizers/punkt_tab")
+    except LookupError:
+        # Не загружаем данные из сети при запуске приложения.
+        nltk = None
+except ImportError:
+    nltk = None
 
-# ГРАММАТИКА ВНУТРИ КОДА
-GRAMMAR_TEXT = """
-S -> NP VP
-S -> NP VP AdvP_Modifier
-S -> AdvP PUNCT S
-S -> S PUNCT AdvP
-S -> Intro PUNCT S
-S -> S PP
-S -> S AdvP_Modifier
-S -> AdvP_Modifier S
-S -> AdvP_Modifier VP
-
-NP -> NOUN
-NP -> ADJ NOUN
-NP -> PRON
-NP -> NUMR
-NP -> NOUN RelClause
-NP -> RelClause NOUN
-NP -> NP PP
-NP -> NP CONJ NP
-NP -> NOUN CONJ NOUN
-NP -> NOUN NOUN
-NP -> NOUN AdvP_Modifier
-
-VP -> VERB
-VP -> VERB NP
-VP -> VERB NP NP
-VP -> VERB AdvP_Modifier
-VP -> VP PP
-VP -> AdvP_Modifier VP
-
-AdvP -> DEEPR
-AdvP -> DEEPR NP
-AdvP_Modifier -> ADV
-
-RelClause -> PART
-RelClause -> PART NP
-RelClause -> PART PP
-RelClause -> PRON VP
-RelClause -> PRON AdvP_Modifier VP
-RelClause -> ADJ VP
-RelClause -> ADJ AdvP_Modifier VP
-
-Intro -> INTRO
-PP -> PREP NP
-
-NOUN -> "NOUN"
-VERB -> "VERB"
-ADJ -> "ADJ"
-DEEPR -> "DEEPR"
-PART -> "PART"
-PREP -> "PREP"
-CONJ -> "CONJ"
-INTRO -> "INTRO"
-PRON -> "PRON"
-NUMR -> "NUMR"
-ADV -> "ADV"
-UNKN -> "UNKN"
-PUNCT -> ","
-"""
-
+def split_sentences(text):
+    if nltk is not None:
+        try:
+            return [s for s in nltk.sent_tokenize(text, language="russian") if s.strip()]
+        except (LookupError, ValueError):
+            pass
+    # Резервное разделение, сохраняющее завершающий знак предложения.
+    return [m.group().strip() for m in re.finditer(r"[^.!?]+(?:[.!?]+|$)", text)
+            if m.group().strip()]
 
 class SyntaxAnalyzer:
     def __init__(self):
-        try:
-            self.grammar = CFG.fromstring(GRAMMAR_TEXT)
-            self.parser = ChartParser(self.grammar)
-            print("✅ Грамматика успешно создана")
-        except Exception as e:
-            raise RuntimeError(f"Ошибка создания грамматики: {e}")
-
-    def _check_punctuation_error(self, tokens):
-        """Проверяет ТОЛЬКО наличие запятой после DEEPR и PART."""
-
-        # 1. Деепричастный оборот
-        if 'DEEPR' in tokens:
-            idx = tokens.index('DEEPR')
-            has_punct = False
-            for i in range(idx + 1, min(idx + 5, len(tokens))):
-                if tokens[i] == 'PUNCT':
-                    has_punct = True
-                    break
-                # Если встретили глагол или существительное до запятой — ошибка
-                if tokens[i] in ['VERB', 'NOUN', 'PRON']:
-                    break
-
-            if not has_punct:
-                return "❌ Пропущена запятая после деепричастного оборота."
-
-        # 2. Причастный оборот
-        if 'PART' in tokens:
-            idx = tokens.index('PART')
-            has_punct_after = False
-            # Ищем запятую ПОСЛЕ причастия и его зависимых слов
-            for i in range(idx + 1, min(idx + 6, len(tokens))):
-                if tokens[i] == 'PUNCT':
-                    has_punct_after = True
-                    break
-
-            if not has_punct_after:
-                return "❌ Пропущена запятая при причастном обороте."
-
-        return None
+        self.rules = [
+            check_adverbial_participles,
+            check_participial_phrases,
+            check_introductory_words,
+            check_homogeneous_members,
+            check_appeals,
+            check_compound_sentences,
+            check_comparative_phrases,
+            check_clarifying_members,
+            check_contrastive_conjunctions,
+        ]
 
     def analyze_sentence(self, sentence):
-        tags_str = sentence_to_tags(sentence)
-        tokens = [t.strip() for t in tags_str.split() if t.strip()]
-
+        tokens = tokenize_and_tag(sentence)
         if not tokens:
-            return {"status": "empty", "color": None, "msg": ""}
+            return {"status": "empty", "color": None, "msg": "", "findings": []}
 
-        # ШАГ 1: ВСЕГДА проверяем пунктуацию первым делом
-        punct_error = self._check_punctuation_error(tokens)
-        if punct_error:
-            # Если нашли ошибку пунктуации — сразу возвращаем красный,
-            # даже если парсер мог бы построить дерево
-            return {"status": "error", "color": "#ff4d4d", "msg": punct_error}
+        findings = []
+        for rule in self.rules:
+            findings.extend(rule(sentence, tokens))
 
-        # ШАГ 2: Если пунктуация в порядке, пробуем построить дерево
-        try:
-            trees = list(self.parser.parse(tokens))
-        except Exception as e:
-            return {"status": "error", "color": "#ff4d4d", "msg": f"Ошибка парсера: {str(e)}"}
+        # Убираем только полностью одинаковые замечания. Рекомендации
+        # перед/после обращения должны оставаться отдельными ошибками.
+        findings = deduplicate_findings(findings)
 
-        # Если деревьев нет — значит структурная ошибка
-        if len(trees) == 0:
-            return {"status": "error", "color": "#ff4d4d",
-                    "msg": "❌ Синтаксическая ошибка: не удалось построить дерево разбора."}
-
-        # Если деревья есть (одно или много) — всё ОК
-        return {"status": "ok", "color": None, "msg": None}
+        if findings:
+            return {
+                "status": "error", "color": "#d94848",
+                "msg": "; ".join(f.message for f in findings),
+                "findings": [f.__dict__ for f in findings],
+            }
+        return {"status": "ok", "color": None, "msg": None, "findings": []}
 
     def analyze_full_text(self, text):
-        results = []
-        sentences = nltk.sent_tokenize(text)
-
-        for sent in sentences:
-            result = self.analyze_sentence(sent)
-            results.append({"text": sent, **result})
-        return results
+        return [{"text": sentence, **self.analyze_sentence(sentence)}
+                for sentence in split_sentences(text)]
