@@ -22,6 +22,96 @@ class RealMorphologyIntegrationTests(unittest.TestCase):
     def findings(self, sentence):
         return self.analyzer.analyze_sentence(sentence)["findings"]
 
+    def test_cfg_builds_tree_from_real_morphology(self):
+        result = self.analyzer.analyze_sentence("Студент читает книгу.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("Студент", result["syntax"]["trees"][0])
+        self.assertIn("NP", result["syntax"]["trees"][0])
+
+    def test_cfg_parses_greeting_with_address(self):
+        result = self.analyzer.analyze_sentence("Дима, привет!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"], ["ADDR", "GREETING"])
+
+    def test_cfg_parses_greeting_before_address(self):
+        result = self.analyzer.analyze_sentence("Привет, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"], ["GREETING", "ADDR"])
+
+    def test_cfg_parses_greeting_phrase_before_address(self):
+        result = self.analyzer.analyze_sentence("Доброе утро, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"][-1], "ADDR")
+
+    def test_cfg_parses_verb_plus_infinitive(self):
+        result = self.analyzer.analyze_sentence("Пошли гулять?")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("INFN", result["syntax"]["tags"])
+
+    def test_cfg_parses_homogeneous_nouns(self):
+        result = self.analyzer.analyze_sentence("Купил хлеб, молоко и сыр.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("HOMOG_NP", result["syntax"]["trees"][0])
+
+    def test_cfg_parses_homogeneous_adjectives(self):
+        result = self.analyzer.analyze_sentence("Выбрал красные, синие и зелёные карандаши.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("HOMOG_NP", result["syntax"]["trees"][0])
+
+    def test_cfg_parses_greeting_phrase_with_address(self):
+        result = self.analyzer.analyze_sentence("Доброе утро, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"][-1], "ADDR")
+
+    def test_cfg_parses_adverbial_modifier(self):
+        result = self.analyzer.analyze_sentence("Утром студент прочитал книгу.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+
+    def test_cfg_parses_greeting_with_address(self):
+        result = self.analyzer.analyze_sentence("Дима, привет!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"], ["ADDR", "GREETING"])
+
+    def test_cfg_parses_greeting_before_address(self):
+        result = self.analyzer.analyze_sentence("Привет, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"], ["GREETING", "ADDR"])
+
+    def test_cfg_parses_greeting_phrase_before_address(self):
+        result = self.analyzer.analyze_sentence("Доброе утро, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"][-1], "ADDR")
+
+    def test_cfg_parses_verb_plus_infinitive(self):
+        result = self.analyzer.analyze_sentence("Пошли гулять?")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("INFN", result["syntax"]["tags"])
+
+    def test_cfg_parses_homogeneous_nouns(self):
+        result = self.analyzer.analyze_sentence("Купил хлеб, молоко и сыр.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("HOMOG_NP", result["syntax"]["trees"][0])
+
+    def test_cfg_parses_homogeneous_adjectives(self):
+        result = self.analyzer.analyze_sentence("Выбрал красные, синие и зелёные карандаши.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertIn("HOMOG_NP", result["syntax"]["trees"][0])
+
+    def test_cfg_parses_greeting_phrase_with_address(self):
+        result = self.analyzer.analyze_sentence("Доброе утро, Дима!")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+        self.assertEqual(result["syntax"]["tags"][-1], "ADDR")
+
+    def test_cfg_parses_adverbial_modifier(self):
+        result = self.analyzer.analyze_sentence("Утром студент прочитал книгу.")
+        self.assertEqual(result["syntax"]["status"], "parsed")
+
+    def test_cfg_result_does_not_change_punctuation_status(self):
+        result = self.analyzer.analyze_sentence("Студент читает книгу.")
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual(result["findings"], [])
+        self.assertEqual(result["syntax"]["status"], "parsed")
+
     def test_morphology_recognizes_gerund(self):
         tokens = self.tokenize_and_tag("Улыбаясь, она вошла.")
         self.assertEqual(tokens[0].pos, "DEEPR")

@@ -10,6 +10,7 @@ from rules.comparative import check_comparative_phrases
 from rules.clarifying import check_clarifying_members
 from rules.contrastive import check_contrastive_conjunctions
 from rules.base import deduplicate_findings
+from syntax_parser import SyntaxParser
 
 try:
     import nltk
@@ -33,6 +34,7 @@ def split_sentences(text):
 
 class SyntaxAnalyzer:
     def __init__(self):
+        self.syntax_parser = SyntaxParser()
         self.rules = [
             check_adverbial_participles,
             check_participial_phrases,
@@ -48,7 +50,12 @@ class SyntaxAnalyzer:
     def analyze_sentence(self, sentence):
         tokens = tokenize_and_tag(sentence)
         if not tokens:
-            return {"status": "empty", "color": None, "msg": "", "findings": []}
+            return {"status": "empty", "color": None, "msg": "", "findings": [],
+                    "syntax": self.syntax_parser.analyze_tokens(tokens)}
+
+        # CFG-разбор строит синтаксическое дерево независимо от проверки запятых.
+        # Отсутствие дерева не считается пунктуационной ошибкой.
+        syntax_result = self.syntax_parser.analyze_tokens(tokens)
 
         findings = []
         for rule in self.rules:
@@ -63,8 +70,10 @@ class SyntaxAnalyzer:
                 "status": "error", "color": "#d94848",
                 "msg": "; ".join(f.message for f in findings),
                 "findings": [f.__dict__ for f in findings],
+                "syntax": syntax_result,
             }
-        return {"status": "ok", "color": None, "msg": None, "findings": []}
+        return {"status": "ok", "color": None, "msg": None, "findings": [],
+                "syntax": syntax_result}
 
     def analyze_full_text(self, text):
         return [{"text": sentence, **self.analyze_sentence(sentence)}
