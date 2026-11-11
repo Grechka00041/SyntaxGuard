@@ -31,6 +31,12 @@ NONTERMINAL_RU = {
     "ADDR": "Обращение",
     "HOMOG_NP": "Однородная именная группа",
     "GREETING_PHRASE": "Формула приветствия",
+    "ATTRS": "Согласованные определения",
+    "NP_CHAIN": "Цепочка существительных",
+    "PREDICATIVE": "Именное сказуемое",
+    "DEEPR_PHRASE": "Деепричастный оборот",
+    "REL_CLAUSE": "Причастный/относительный оборот",
+    "COMPARATIVE": "Сравнительный оборот",
 }
 
 # Терминалы, получаемые из морфологических категорий.
@@ -52,8 +58,10 @@ TERMINAL_RU = {
     "PRED": "Слово категории состояния",
     "PARTICLE": "Частица",
     "INTJ": "Междометие",
+    "INTRO": "Вводное слово",
     "INFN": "Инфинитив",
     "GREETING": "Приветствие",
+    "UNKN": "Нераспознанное слово",
 }
 
 
@@ -191,8 +199,12 @@ def render_tree_html(tree_data: dict, title: str = "Синтаксическое
                 "</g>"
             )
         else:
-            meaning = escape(NONTERMINAL_RU.get(node["label"], node["label"]))
-            box_width = max(100, min(190, max(len(node["label"]) * 9, len(NONTERMINAL_RU.get(node["label"], node["label"])) * 6.2) + 30))
+            ru_name = NONTERMINAL_RU.get(node["label"], node["label"])
+            meaning = escape(ru_name)
+            box_width = max(
+                100,
+                min(210, max(len(node["label"]) * 9, len(ru_name) * 6.2) + 30),
+            )
             root_class = "sg-root" if item["depth"] == 0 else "sg-internal"
             svg_parts.append(
                 f'<g class="sg-node {root_class}" transform="translate({x:.1f},{y:.1f})">'

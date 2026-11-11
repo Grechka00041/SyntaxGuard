@@ -1,4 +1,4 @@
-"""Основной координатор пунктуационных правил."""
+"""Основной координатор: пунктуационные правила + независимый CFG-разбор."""
 import re
 from preprocessor import tokenize_and_tag
 from rules.existing import check_adverbial_participles, check_participial_phrases
@@ -11,16 +11,17 @@ from rules.clarifying import check_clarifying_members
 from rules.contrastive import check_contrastive_conjunctions
 from rules.base import deduplicate_findings
 from syntax_parser import SyntaxParser
+from rules.syntax_rules import check_syntax
 
 try:
     import nltk
     try:
         nltk.data.find("tokenizers/punkt_tab")
     except LookupError:
-        # Не загружаем данные из сети при запуске приложения.
         nltk = None
 except ImportError:
     nltk = None
+
 
 def split_sentences(text):
     if nltk is not None:
@@ -28,9 +29,9 @@ def split_sentences(text):
             return [s for s in nltk.sent_tokenize(text, language="russian") if s.strip()]
         except (LookupError, ValueError):
             pass
-    # Резервное разделение, сохраняющее завершающий знак предложения.
     return [m.group().strip() for m in re.finditer(r"[^.!?]+(?:[.!?]+|$)", text)
             if m.group().strip()]
+
 
 class SyntaxAnalyzer:
     def __init__(self):
@@ -51,18 +52,16 @@ class SyntaxAnalyzer:
         tokens = tokenize_and_tag(sentence)
         if not tokens:
             return {"status": "empty", "color": None, "msg": "", "findings": [],
+                    "syntax_findings": [],
                     "syntax": self.syntax_parser.analyze_tokens(tokens)}
 
-        # CFG-разбор строит синтаксическое дерево независимо от проверки запятых.
-        # Отсутствие дерева не считается пунктуационной ошибкой.
         syntax_result = self.syntax_parser.analyze_tokens(tokens)
+        syntax_findings = check_syntax(sentence, tokens, syntax_result)
+        syntax_payload = [f.__dict__ for f in syntax_findings]
 
         findings = []
         for rule in self.rules:
             findings.extend(rule(sentence, tokens))
-
-        # Убираем только полностью одинаковые замечания. Рекомендации
-        # перед/после обращения должны оставаться отдельными ошибками.
         findings = deduplicate_findings(findings)
 
         if findings:
@@ -70,9 +69,11 @@ class SyntaxAnalyzer:
                 "status": "error", "color": "#d94848",
                 "msg": "; ".join(f.message for f in findings),
                 "findings": [f.__dict__ for f in findings],
+                "syntax_findings": syntax_payload,
                 "syntax": syntax_result,
             }
         return {"status": "ok", "color": None, "msg": None, "findings": [],
+                "syntax_findings": syntax_payload,
                 "syntax": syntax_result}
 
     def analyze_full_text(self, text):
